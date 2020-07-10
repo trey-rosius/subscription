@@ -1,0 +1,23 @@
+
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+    
+}
+
+html{
+    /* 1 rem = 10px */
+    font-size: 62.5%;
+
+}
+body{
+    min-height: 100%;
+  
+    background-image: linear-gradient(to left top,rgba($color-background-dark,.85),
+    rgba($color-background-light,.85));
+
+    box-sizing: border-box;
+}
